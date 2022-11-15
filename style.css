@@ -1,0 +1,155 @@
+:root{
+    ---font-style:'nunito Sans', sans-serif
+}
+.form{
+    background:linear-gradient(45deg, #FC466B, #3F5EFB);
+    font-family:var(---font-style);
+}
+
+h2{text-align: center; color: rgb(210, 196, 223); font-size:20px;}
+*{margin:0; padding:0;}
+.sidebar{
+    justify-content: end;
+    display: flex;
+    list-style:none;
+}
+.mains{
+    background: #34495e;
+    padding: 0;
+    margin: 0;
+
+}
+.menu:hover{
+    transition: 2s;
+    color: #4831D4;
+}
+nav{
+    display: flex;
+    justify-content: end;
+} 
+nav a{
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+nav  a:hover{
+    transition: 3s;
+    color: #e87c51;
+    border:1px solid sandybrown;
+    border-radius:30px;
+}
+ .skills h1{
+    color:#e87c51;
+    font-size:40px;
+    padding-top: 20px;
+    margin: 0;
+ }
+p{
+    text-align:center;
+}
+h3{text-align:center;}
+.heading h3{text-align: center;}
+.project{background-color:#518be8;}
+.profile{background-color: #8e84cc;}
+.project{
+    background:#4831D4;
+}
+.index h2{
+    text-align: center;
+    position: -ms-page;
+    color:#34495e;
+ }
+ /* contact form*/
+ #home{
+    padding: 10px;
+    color: #c88ddb;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border:1px solid #8F7CEC;
+    margin:auto;
+    text-overflow: ellipsis;
+
+}
+#home:hover{
+    background: #8F7CEC;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #8F7CEC, 0 0 25px #8F7CEC, 0 0 50px #8F7CEC, 0 0 100px #8F7CEC;
+}
+.homebutton{
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* .contactform{
+    padding: 10px;
+    margin:10px;
+ }
+ .contactform{
+    border: 1px,solid,wheat;
+    border-radius: 20px;
+    color: thistle;
+ } */ */
+.text{
+    font-size: 30px;
+    font-weight: 300;
+    color: aliceblue;
+    background: blue;
+    padding: 0;
+    margin: auto;
+    width: 500px;
+    border-radius: 30px;
+    margin-top: 390px;
+
+}
+a{
+    font-size: 30px;
+    align-items: center;
+}
+.about h1{
+    text-align: center;
+}
+.about img{
+    width: 200px;
+    margin-left: 520px;
+    height: 250px;
+    border-radius: 20px;
+
+}
+.about{
+
+    border: 1px,solid,olivedrab;
+    border-radius: 30px;
+    background:#8e84cc;
+    width: 1270px;;
+}
+ /*prjects*/
+ .projectmain {
+    padding: 20px;
+    margin: 10px;
+    text-align:center;
+
+  }
+
+
+ 
+
+
+
+
+
+
